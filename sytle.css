@@ -1,0 +1,130 @@
+body {
+  background-image: linear-gradient(
+    70deg,
+    rgb(209, 233, 255),
+    rgb(118, 184, 247)
+  );
+}
+
+h1 {
+  text-align: center;
+  font-family: "Bodoni Moda", serif;
+  color: #800080;
+  font-size: 45px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#score-heading {
+  margin-bottom: 60px;
+}
+hr {
+  height: 1px;
+  background-color: #800080;
+}
+
+#no-scores-heading {
+  text-align: center;
+  color: grey;
+  font-family: monospace;
+  cursor: pointer;
+  margin-top: 60px;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(114, 114, 114);
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: auto;
+  width: 230px;
+  height: 50px;
+  background-color: transparent;
+  color: purple;
+  border: 2px outset purple;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-bottom: 70px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  transition-property: all;
+  transition-delay: 0.2s;
+  transition-duration: 0.5s;
+}
+button:hover {
+  background-color: #800080;
+  color: rgb(209, 233, 255);
+  font-size: 22px;
+}
+.menu {
+  margin-top: 130px;
+}
+.scores {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  margin-top: 60px;
+  font-family: "Consolata", monospace;
+  overflow-y: scroll;
+}
+.date {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 300px;
+}
+.score-block {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: aliceblue;
+  box-shadow: 2px 5px rgb(114, 114, 114);
+  font-size: x-large;
+}
+.score {
+  display: inline;
+  margin-right: 20px;
+  margin-left: 100px;
+}
+
+#counter {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#query {
+  text-align: center;
+  color: #800080;
+  font-family: cursive;
+  cursor: pointer;
+}
+.queries {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 100px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+#querie-cont {
+  display: flex;
+}
+
+#score {
+  text-align: center;
+  font-family: "Xanh Mono", monospace;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: crimson;
+}
+
+#game-over {
+  text-align: center;
+  font-family: monospace;
+  margin-top: 40px;
+}
